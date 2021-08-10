@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "links",
+  "info": {
+    "name": "Links"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "playstore": {
+      "type": "string"
+    },
+    "appstore": {
+      "type": "string"
+    }
+  }
+}
