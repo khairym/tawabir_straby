@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "name": "faq",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "qa": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.qa",
+      "max": 5
+    }
+  }
+}

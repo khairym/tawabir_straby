@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_sections",
+  "info": {
+    "name": "App Sections"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "appsections.slide",
+      "max": 5
+    }
+  }
+}
